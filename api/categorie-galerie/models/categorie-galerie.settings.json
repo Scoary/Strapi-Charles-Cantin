@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorie_galeries",
+  "info": {
+    "name": "Categorie Galerie"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Categorie": {
+      "type": "string"
+    },
+    "galeries": {
+      "via": "categorie_galerie",
+      "collection": "galerie"
+    }
+  }
+}
