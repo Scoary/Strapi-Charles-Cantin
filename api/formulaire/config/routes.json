@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/formulaires",
+      "handler": "formulaire.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formulaires/count",
+      "handler": "formulaire.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formulaires/:id",
+      "handler": "formulaire.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/formulaires",
+      "handler": "formulaire.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/formulaires/:id",
+      "handler": "formulaire.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/formulaires/:id",
+      "handler": "formulaire.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
