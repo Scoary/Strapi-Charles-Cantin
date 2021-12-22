@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tarifs",
   "info": {
-    "name": "Tarifs"
+    "name": "Tarifs",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,8 +20,8 @@
       "type": "richtext",
       "required": true
     },
-    "Image": {
-      "collection": "file",
+    "Image1": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -32,6 +33,26 @@
     "Prix": {
       "type": "string",
       "required": true
+    },
+    "Image2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Image3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
