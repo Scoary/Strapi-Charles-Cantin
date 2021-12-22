@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "informations",
+  "info": {
+    "name": "Informations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Telephone": {
+      "type": "string"
+    },
+    "Reseaux_Sociaux": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reseaux-sociaux.reseaux-sociaux"
+    }
+  }
+}
