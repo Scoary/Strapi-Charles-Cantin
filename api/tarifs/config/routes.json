@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tarifs",
+      "handler": "tarifs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarifs/count",
+      "handler": "tarifs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarifs/:id",
+      "handler": "tarifs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tarifs",
+      "handler": "tarifs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tarifs/:id",
+      "handler": "tarifs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tarifs/:id",
+      "handler": "tarifs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
