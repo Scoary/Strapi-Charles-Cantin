@@ -29,16 +29,6 @@
       "type": "string",
       "default": "https://www.facebook.com",
       "required": true
-    },
-    "Logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
     }
   }
 }
