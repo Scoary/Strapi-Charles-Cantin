@@ -16,14 +16,29 @@
       "type": "string",
       "required": true
     },
-    "Reseaux_Sociaux": {
-      "type": "component",
-      "repeatable": false,
-      "component": "reseaux-sociaux.reseaux-sociaux"
-    },
     "Email": {
       "type": "email",
       "required": true
+    },
+    "Instagram": {
+      "type": "string",
+      "default": "https://www.instagram.com",
+      "required": true
+    },
+    "Facebook": {
+      "type": "string",
+      "default": "https://www.facebook.com",
+      "required": true
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
