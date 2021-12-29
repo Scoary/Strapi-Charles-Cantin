@@ -11,7 +11,7 @@ yarn
 ```
 - Démarrer le serveur local avec :
 ```bash
-`yarn develop`
+yarn develop
 ```
 
 - Déployer le site en ligne avec :
